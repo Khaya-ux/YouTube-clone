@@ -1,0 +1,18 @@
+body {
+        background-color: #f9f9f9;
+      }
+      .navbar-brand i {
+        font-size: 40px;
+        color: red;
+      }
+      .card:hover {
+        transform: scale(1.02);
+        transition: transform 0.2s;
+        cursor: pointer;
+      }
+      .search-btn {
+        border-left: none;
+      }
+      .search-box {
+        border-right: none;
+      }

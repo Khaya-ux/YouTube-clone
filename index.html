@@ -9,47 +9,57 @@
   </head>
   <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light px-3">
-      <a class="navbar-brand" href="#"><i class="fa fa-youtube-play" style="font-size:48px;color:red"></i></a>
-      <form class="d-flex w-50">
-        <input class="form-control me-2 c" type="search" placeholder="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+     <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light px-3 shadow-sm">
+      <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+      <form class="d-flex w-50 mx-auto">
+        <input class="form-control search-box" type="search" placeholder="Search">
+        <button class="btn btn-outline-secondary search-btn" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
       </form>
     </nav>
 
     <!-- Video Section -->
     <div class="container mt-4">
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="/pictures/images (1).jpg" class="card-img-top" alt="video">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="ratio ratio-16x9">
+              <img src="/pictures/images (1).jpg" class="card-img-top" alt="video thumbnail">
+            </div>
             <div class="card-body">
-              <h6 class="card-title">Students discuss their experiennces with Python</h6>
+              <h6 class="card-title">Students discuss their experiences with Python</h6>
               <p class="card-text"><small class="text-muted">Channel 1 • 1M views</small></p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="/pictures/images.jpg" class="card-img-top" alt="video">
+        <div class="col">
+          <div class="card h-100">
+            <div class="ratio ratio-16x9">
+              <img src="/pictures/images.jpg" class="card-img-top" alt="video thumbnail">
+            </div>
             <div class="card-body">
-              <h6 class="card-title">Melsoft founder discusses about the challenges of the south africa governmnet</h6>
+              <h6 class="card-title">Melsoft founder on challenges of the South African government</h6>
               <p class="card-text"><small class="text-muted">Channel 2 • 500K views</small></p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="/pictures/download.jpg" class="card-img-top" alt="video">
+        <div class="col">
+          <div class="card h-100">
+            <div class="ratio ratio-16x9">
+              <img src="/pictures/download.jpg" class="card-img-top" alt="video thumbnail">
+            </div>
             <div class="card-body">
-              <h6 class="card-title">What is Melsoft academy</h6>
+              <h6 class="card-title">What is Melsoft Academy?</h6>
               <p class="card-text"><small class="text-muted">Channel 3 • 250K views</small></p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 
